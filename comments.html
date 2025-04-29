@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Deja tus comentarios</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <section class="card hablemos-section">
+        <h2>Hablemos</h2>
+        <p>¿Tienes algo más que decir? Déjame un mensaje personal 👇</p>
+    
+        <div class="form-container">
+            <form id="messageForm">
+                <label for="senderName">Nombre:</label>
+                <input type="text" id="senderName" name="senderName" required />
+    
+                <label for="message">Tu mensaje:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+    
+                <img src="assets/message.gif" alt="Gif contacto" class="contact-gif" />
+    
+                <button type="submit">Enviar</button>
+                <a href="index.html" class="link-card">Volver al inicio</a>
+            </form>
+        </div>
+    </section>  
+
+</body>
+</html>
